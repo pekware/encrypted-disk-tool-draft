@@ -8,6 +8,7 @@ on:
     branches: [ "main", "2024-05.pek" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
 
