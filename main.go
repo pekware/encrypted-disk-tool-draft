@@ -1,11 +1,11 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import "fmt"
-
-func Hello() string {
-	return "Hello, world"
-}
+import "github.com/pekware/encrypted-disk-tool-draft/cmd"
 
 func main() {
-	fmt.Println(Hello())
+	cmd.Execute()
 }
