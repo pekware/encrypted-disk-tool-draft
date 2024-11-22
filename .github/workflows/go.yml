@@ -5,9 +5,11 @@ name: Go
 
 on:
   push:
-    branches: [ "main", "2024-05.pek" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
